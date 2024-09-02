@@ -264,3 +264,53 @@ html {
     background-color: #5e5252;
     color: white;
 }
+
+/*CONTATOS*/
+
+.contatos {
+    width: 100%;
+    background-color: #1f1e1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: Center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.contatos h3 {
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    font-family: 'Indie Flower', cursive;
+ }
+
+.contato-secao {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.contato-secao i {
+    margin-right: 1rem;
+}
+
+.contato-secao div {
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.contato-secao div:hover {
+    color: #ffc506;
+}
+
+footer {
+    height: 35px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
