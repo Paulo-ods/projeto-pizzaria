@@ -168,6 +168,7 @@ html {
     font-size: 5rem;
     color: #e6e6e6;
     text-transform: uppercase;
+    padding-top: 15px;
 }
 
 .itens-cardapio {
@@ -452,7 +453,8 @@ footer {
 @media (max-width: 645px) {
     .sobre-nos img {
         width: 400px;
-        margin-left: 10px;
+        height: auto;
+        margin: 30px;
     }
 
     .contentsobre p {
@@ -494,7 +496,6 @@ footer {
     .sobre-nos img {
         width: 300px;
         height: auto;
-        margin-left: 10px;
     }
 
     .contentsobre p {
