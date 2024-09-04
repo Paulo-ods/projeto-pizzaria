@@ -450,10 +450,16 @@ footer {
 }
 
 @media (max-width: 645px) {
+
+    .img-cozinha {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .sobre-nos img {
-        width: 400px;
+        width: 350px;
         height: auto;
-        margin: 30px;
     }
 
     .contentsobre p {
